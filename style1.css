@@ -1,0 +1,143 @@
+/* === IMPORT GOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600;700&display=swap');
+
+/* === GLOBAL STYLES === */
+body {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #32004b;
+  background-color: #fcfcfc;
+  margin: 0;
+  padding: 2em;
+}
+
+/* === HEADER STYLES === */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #69039c;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* === LINKS === */
+a {
+  color: #4a0077;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+  color: #6a0dad;
+}
+
+/* === CODE CHUNKS === */
+pre, code {
+  background-color: #f9f0ff; 
+  color: #4a0075;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.3em 0.5em;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(106, 13, 173, 0.05);
+}
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* === TABLES: White content + purple headers === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+}
+th {
+  background-color: #ebe0f9; 
+  color: #32004b;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75em 1em;
+  border: 1px solid #ddd;
+}
+td {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  padding: 0.75em 1em;
+  border: 1px solid #ddd;
+}
+
+/* === BLOCKQUOTES === */
+blockquote {
+  border-left: 5px solid #6a0dad;
+  padding: 1em;
+  background-color: #f7f2fc;
+  font-style: italic;
+  margin: 1.5em 0;
+  color: #4a4a4a;
+  border-radius: 6px;
+}
+
+/* === FIGURES AND PLOTS === */
+img, .figure {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(106, 13, 173, 0.1);
+}
+
+/* === FOOTER === */
+footer {
+  text-align: center;
+  padding: 2em;
+  font-size: 0.85em;
+  color: #999;
+}
+
+/* === NOTE BOXES === */
+.note {
+  background-color: #f8f3fd;
+  border-left: 6px solid #5a0dad;
+  padding: 1.2em;
+  margin: 2em 0;
+  font-style: italic;
+  border-radius: 6px;
+}
+
+/* === TOC === */
+#TOC {
+  background-color: #f6f0fc;
+  border-left: 5px solid #4a0077;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+#TOC h2 {
+  font-size: 1.1em;
+  color: #4a0077;
+  font-family: 'Playfair Display', serif;
+}
+
+/* === BUTTONS === */
+button {
+  background-color: #4a0077;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 0.95em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #9933cc;
+}
+
